@@ -1,5 +1,5 @@
 set.seed(0000) # REPLACE 0000 with your individual seed value!
-# Solutions using the seed value 123 will not be accepted.
+# Solutions using the seed value 0000 will not be accepted.
 
 # Generate data
 n<-rpois(n=1,lambda=250)
