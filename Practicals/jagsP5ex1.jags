@@ -1,0 +1,9 @@
+model{
+  # sampling model
+  for(i in 1:N){
+    y[i]~dpois(lambda)
+  }
+  
+  # prior
+  lambda~dgamma(5,2)
+}
